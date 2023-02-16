@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Fredoka', sans-serif;
+  background-color: #0F0E17;
+  color: #FFF;
+}
+
+p{
+  margin-bottom: 1rem;
+}
+
+h1{
+  color: #E43170;
+  margin: 2.5rem 0;
+}
+img{
+  max-width: 100%;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: #FB8908;
+}
+section{
+  margin-bottom: 1.5rem;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.col{
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.col img{
+  height: 150px;
+}
